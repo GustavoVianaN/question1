@@ -1,11 +1,21 @@
-i = 0
-while(i < 100):
-  i = i + 1
-  if ((i%3==0 and i%5==0)):
-    print("FooBaa")
-  if (i%3==0):
-    print("Foo")
-  if (i%5==0):
-    print("Baa")
-  if ((i%3!=0 or i%5!=0)):
-    print(i)
+public class Main {
+    public static void main(String[] args) {
+      
+      int i;
+      i = 0;
+      while(i < 100){
+        i = i + 1;
+        if ((i%3==0 && i%5==0)){
+          System.out.println("FooBaa");
+            }
+        if (i%3==0){
+          System.out.println("Foo");
+            }
+        if (i%5==0){
+          System.out.println("Baa");
+            }
+        if ((i%3!=0 || i%5!=0)){
+          System.out.println(i);
+            }
+    }}
+  }
